@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+:root {
+  --mainPink: #d90082;
+  --mainWhite: #f7f7f7;
+  --mainBlack: #0e1724;
+  --mainGray: #bec0c2;
+  --mainBlue: #007fed;
+}
+
+/* Start project */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body{
+    color: var(--mainBlack);
+    font-family: 'Roboto-Regular','sans-serif';
+}
