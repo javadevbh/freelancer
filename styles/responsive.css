@@ -1,0 +1,8 @@
+.container-fluid , .img-responsive{
+    width: 100% !important;
+}
+
+.container{
+    max-width: 1176px;
+    margin: 0 auto;
+}
