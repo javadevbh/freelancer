@@ -6,3 +6,20 @@
     max-width: 1176px;
     margin: 0 auto;
 }
+
+@media (max-width:713px) {
+    .nav-menu_link , .nav-links_item:nth-child(3){
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+    }
+    .nav-links_item{
+        margin-right:20px !important;
+        text-align: center;
+    }
+
+    .header-navbar_menu .header-navbar_item{
+        padding: 16px 8px;
+    }
+}
