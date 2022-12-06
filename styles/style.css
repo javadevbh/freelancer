@@ -98,6 +98,11 @@ body{
   overflow: auto;
 }
 
+.header-navbar_content{
+  min-width: 405px;
+  overflow: auto;
+}
+
 .header-navbar_menu{
   display: flex;
 }
