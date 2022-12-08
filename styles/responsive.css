@@ -1,25 +1,67 @@
-.container-fluid , .img-responsive{
-    width: 100% !important;
+.container-fluid,
+.img-responsive {
+  width: 100% !important;
 }
 
-.container{
-    max-width: 1176px;
-    margin: 0 auto;
+.container {
+  max-width: 1176px;
+  margin: 0 auto;
 }
 
-@media (max-width:713px) {
-    .nav-menu_link , .nav-links_item:nth-child(3){
-        display: none;
-    }
-    .nav-menu{
-        display: block;
-    }
-    .nav-links_item{
-        margin-right:20px !important;
-        text-align: center;
-    }
+@media (max-width: 960px) {
+  .brands-content img {
+    height: 20px;
+  }
+}
 
-    .header-navbar_menu .header-navbar_item{
-        padding: 16px 8px;
-    }
+@media (max-width: 713px) {
+  .nav-menu_link,
+  .nav-links_item:nth-child(3) {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+  .nav-links_item {
+    margin-right: 20px !important;
+    text-align: center;
+  }
+
+  .header-navbar_menu .header-navbar_item {
+    padding: 16px 8px;
+  }
+
+  .header-title {
+    font-size: 41px;
+  }
+
+  .header-desc_menu .header-desc_item {
+    font-size: 16px;
+  }
+
+  .header-btn_container a {
+    font-size: 18px;
+  }
+
+  .header-btn_container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .brands-content {
+    display: none;
+  }
+
+  .swiper , .brands p {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-title {
+    font-size: 32px;
+  }
 }
