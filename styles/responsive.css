@@ -12,6 +12,18 @@
   .brands-content img {
     height: 20px;
   }
+  .description-title{
+    font-size: 32px;
+  }
+  .description-card_header h3{
+    font-size: 20px;
+  }
+  .description-body p{
+    font-size: 14px;
+  }
+  .description-card{
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 713px) {
@@ -57,6 +69,13 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+  }
+  .description-title{
+    font-size: 24px;
+  }
+
+  .description-card{
+    width: auto;
   }
 }
 

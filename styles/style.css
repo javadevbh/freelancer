@@ -33,6 +33,10 @@ body {
   font-family: "Roboto-Regular", "sans-serif";
 }
 
+.swiper , .description{
+  border-bottom: 1px solid var(--mainGray);
+}
+
 /*--- Header ---*/
 
 /*--- Navbar ---*/
@@ -215,9 +219,8 @@ body {
 
 .swiper {
   max-width: 600px;
-  padding: 32px 0;
   display: none;
-  border-bottom: 1px solid var(--mainGray);
+  padding: 32px 0;
 }
 
 .swiper-slide {
@@ -240,4 +243,46 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin-right: 25px;
+}
+
+/*--- Description sections ---*/
+
+.description{
+  padding:0 25px 90px 25px;
+}
+
+.description-title{
+  font-size: 48px;
+  margin: 80px 0;
+}
+
+.description-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.description-card{
+  width: 281.5px;
+}
+
+.description-card_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.description-card_header img{
+  width:64px ; height: 64px;
+  margin-right: 15px;
+}
+
+.description-card_header h3{
+  font-size: 24px;
+}
+
+.description-body p{
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 10px;
 }
