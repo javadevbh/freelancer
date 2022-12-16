@@ -158,22 +158,22 @@ body {
   display: flex;
 }
 
-.header-btn_container a {
+.header-btn_container a , .description-btn , .information-btn {
   font-size: 20px;
   font-family: "Roboto-Bold" sans-serif;
   font-weight: bold;
-  color: inherit !important;
+  color: var(--mainWhite) !important;
   margin: 5px;
   padding: 16px 25px;
   border-radius: 3px;
   transition: var(--transition);
 }
 
-.header-btn:nth-child(1) {
+.header-btn:nth-child(1) , .description-btn , .information-btn{
   background-color: var(--mainPink);
 }
 
-.header-btn:nth-child(1):hover {
+.header-btn:nth-child(1):hover , .description-btn:hover , .information-btn:hover {
   background-color: var(--pinkHoverColor);
 }
 
@@ -355,5 +355,62 @@ body {
 
 .product-info , .product-image{
   margin: 0 !important;
+}
+
+.description-btn{
+  margin: 70px auto !important;
+  width: 222.428px;
+  height: 55px;
+}
+
+/* Information asides */
+
+.information{
+  display: flex;
+  height: 90vh;
+  color: var(--mainWhite);
+}
+
+.information-title{
+  font: 32px "Roboto-Bold";
+}
+
+.information-desc{
+  font: 48px "Roboto-Bold";
+  margin-bottom: 20px;
+}
+
+.information-paragraph{
+  font-size: 20px;
+  margin-bottom: 35px;
+  line-height: 28px;
+}
+
+.information-btn{
+  font-size: 14px;
+  padding: 8px 14px;
+  margin: 0;
+}
+
+.left-section{
+  background: url("../images/api-upsell-v3.jpg") no-repeat center/cover;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.left-section_content{
+  padding-left: 195px;
+}
+
+.right-section{
+  background: url("../images/enterprise-upsell-v3.jpg") no-repeat center/cover;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.right-section_content{
+  padding-left: 40px;
 }
 
