@@ -15,6 +15,9 @@
   .description-title{
     font-size: 32px;
   }
+  .description-paragraph{
+    font-size: 18px;
+  }
   .description-card_header h3{
     font-size: 20px;
   }
@@ -23,6 +26,9 @@
   }
   .description-card{
     margin-top: 20px;
+  }
+  .product-info{
+    font-size: 14px !important;
   }
 }
 
@@ -70,10 +76,15 @@
     justify-content: center;
     align-items: center;
   }
+  .products{
+    justify-content: center;
+  }
   .description-title{
     font-size: 24px;
   }
-
+  .description-paragraph{
+    font-size: 16px;
+  }
   .description-card{
     width: auto;
   }

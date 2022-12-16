@@ -46,6 +46,7 @@ body {
   top: 0;
   box-shadow: 0 0 4px #4d525b14, 0 2px 4px #4d525b1f;
   background-color: #fff;
+  z-index: 3;
 }
 
 .nav .nav-content {
@@ -256,6 +257,10 @@ body {
   margin: 80px 0;
 }
 
+.description-paragraph{
+  font-size: 24px;
+}
+
 .description-cards{
   display: flex;
   justify-content: space-between;
@@ -286,3 +291,69 @@ body {
   line-height: 28px;
   margin: 0 10px;
 }
+
+.product-title{
+  margin: 80px 0 40px 0;
+}
+
+.products > .description-card{
+  margin-top: 50px;
+  overflow: hidden;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.product-header{
+  margin-bottom: 20px;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+
+.product-image{
+  width: 265px !important;
+  height: 207px !important;
+  cursor: pointer;
+}
+
+.product-header:hover{
+  transform: scale(1.2);
+}
+
+.product-header:hover .product-image{
+  filter: brightness(50%);
+}
+
+.product-image:hover ~ .product-button{
+  display: block;
+}
+
+.product-button:hover{
+  display: block;
+}
+
+.product-button{
+  position: absolute;
+  left: 50px;
+  cursor: pointer;
+  border: 2px solid var(--mainWhite);
+  padding: 10px 20px;
+  color: var(--mainWhite);
+  font: 18px "Roboto-Bold";
+  display: none;
+}
+
+.product-button:hover{
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.product-info{
+  font-family:"Roboto-Bold",sans-serif;
+  font-size: 24px !important;
+}
+
+.product-info , .product-image{
+  margin: 0 !important;
+}
+
