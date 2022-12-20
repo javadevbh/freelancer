@@ -114,6 +114,19 @@
     width: 100%;
     height: 50%;
   }
+  .footer-content{
+    flex-flow: column;
+  }
+  .footer__grouping{
+    border-bottom: .5px solid #bec0c233;
+  }
+  .links-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .copyright-total , .copyright-reg{
+    display: none;
+  }
 }
 
 @media (max-width: 375px) {
