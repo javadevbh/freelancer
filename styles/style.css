@@ -334,6 +334,7 @@ body {
 
 .description-card_header .user-image {
   border-radius: 100%;
+  width: 64px; height: 64px;
 }
 
 .description-card_header h3 {
