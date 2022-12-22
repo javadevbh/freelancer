@@ -127,6 +127,17 @@
   .copyright-total , .copyright-reg{
     display: none;
   }
+  .filters{
+    justify-content: center;
+    margin: 0 auto 50px auto;
+    width: 60%;
+  }
+  .filters p{
+    margin-bottom: 10px;
+  }
+  .filter{
+    margin: 5px;
+  }
 }
 
 @media (max-width: 375px) {

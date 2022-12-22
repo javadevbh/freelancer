@@ -32,7 +32,7 @@
             <a href="#" class="nav-menu_link">How It Works</a>
           </li>
           <li class="nav-menu_item">
-            <a href="#" class="nav-menu_link">Browse Jobs</a>
+            <a href="#jobs" class="nav-menu_link">Browse Jobs</a>
           </li>
         </ul>
         <ul class="nav-links">
@@ -234,6 +234,19 @@
           </div>
         </li>
       </ul>
+    </section>
+    <section class="description container">
+      <h1 id='jobs' class="description-title">Your Community</h1>
+      <div class="filters">
+        <p>Choose your ability :</p>
+        <span class='filter' data-filter='JavaScript'>JavaScript</span>
+        <span class='filter' data-filter='Python'>Python</span>
+        <span class='filter' data-filter='Java'>Java</span>
+        <span class='filter' data-filter='C#'>C#</span>
+        <span class='filter' data-filter='Design'>Design</span>
+        <span class='filter' data-filter='All'>All</span>
+      </div>
+      <ul class="description-cards card-container"></ul>
     </section>
     <section class="description container">
       <h1 class="description-title product-title">
@@ -579,18 +592,7 @@
         </p>
       </section>
     </footer>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "horizontal",
-        loop: true,
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+    <script src="./js/people.js"></script>
+    <script src='./js/main.js'></script>
   </body>
 </html>
