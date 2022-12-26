@@ -1,7 +1,7 @@
 const people = [
   {
     id: 1,
-    imgSrc: "../images/people/avatar-1.jpg",
+    imgSrc: "./images/people/avatar-1.jpg",
     name: "Mari Elen",
     ability: "JavaScript",
     description:
@@ -10,7 +10,7 @@ const people = [
 
   {
     id: 2,
-    imgSrc: "../images/people/avatar-2.jpg",
+    imgSrc: "./images/people/avatar-2.jpg",
     name: "Keghart Edvard",
     ability: "Python",
     description:
@@ -19,7 +19,7 @@ const people = [
 
   {
     id: 3,
-    imgSrc: "../images/people/avatar-3.jpg",
+    imgSrc: "./images/people/avatar-3.jpg",
     name: "Alen Taline",
     ability: "JavaScript",
     description:
@@ -28,7 +28,7 @@ const people = [
 
   {
     id: 4,
-    imgSrc: "../images/people/avatar-4.jpg",
+    imgSrc: "./images/people/avatar-4.jpg",
     name: "Gevorg Garegin",
     ability: "Java",
     description:
@@ -37,7 +37,7 @@ const people = [
 
   {
     id: 5,
-    imgSrc: "../images/people/avatar-5.jpg",
+    imgSrc: "./images/people/avatar-5.jpg",
     name: "Gadar Vahan",
     ability: "Python",
     description:
@@ -46,7 +46,7 @@ const people = [
 
   {
     id: 6,
-    imgSrc: "../images/people/avatar-6.jpg",
+    imgSrc: "./images/people/avatar-6.jpg",
     name: "Poghos Berjouhi",
     ability: "C#",
     description:
@@ -55,7 +55,7 @@ const people = [
 
   {
     id: 7,
-    imgSrc: "../images/people/avatar-7.jpg",
+    imgSrc: "./images/people/avatar-7.jpg",
     name: "Rouben Keghart",
     ability: "Design",
     description:
@@ -64,7 +64,7 @@ const people = [
 
   {
     id: 8,
-    imgSrc: "../images/people/avatar-8.jpg",
+    imgSrc: "./images/people/avatar-8.jpg",
     name: "Anahid Hovik",
     ability: "Python",
     description:
@@ -73,7 +73,7 @@ const people = [
 
   {
     id: 9,
-    imgSrc: "../images/people/avatar-9.jpg",
+    imgSrc: "./images/people/avatar-9.jpg",
     name: "Krikor Anahit",
     ability: "JavaScript",
     description:
@@ -82,7 +82,7 @@ const people = [
 
   {
     id: 10,
-    imgSrc: "../images/people/avatar-10.jpg",
+    imgSrc: "./images/people/avatar-10.jpg",
     name: "Hourig Takouhi",
     ability: "Python",
     description:
@@ -91,7 +91,7 @@ const people = [
 
   {
     id: 11,
-    imgSrc: "../images/people/avatar-11.jpg",
+    imgSrc: "./images/people/avatar-11.jpg",
     name: "Poghos Spartak",
     ability: "Java",
     description:
@@ -100,7 +100,7 @@ const people = [
 
   {
     id: 12,
-    imgSrc: "../images/people/avatar-12.jpg",
+    imgSrc: "./images/people/avatar-12.jpg",
     name: "Lena Lusine",
     ability: "Design",
     description:
