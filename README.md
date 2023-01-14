@@ -4,7 +4,7 @@
 
 ---
 # Freelancer webstie front-end
-## [review online](https://javadbahrami-freelancer.netlify.app/)
+## [review online](https://javadevbh.github.io/freelancer/)
 ---
 ## tips
 * It's a website template with a few features
@@ -21,5 +21,5 @@
 ## contact me
 * *[Email](mailto:javadev14bh@gmail.com)*
 * *[Telegram](https://t.me/LjvdL/)*
-* *[Instagram](https://instagram.com/javad_bh/)*
+* *[Instagram](https://instagram.com/jvd_bh/)*
 * *[LinkedIn](https://www.linkedin.com/in/javad-bahrami-79b349259/)*
